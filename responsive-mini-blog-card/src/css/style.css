@@ -1,0 +1,99 @@
+body{
+    font-family: "Sora", sans-serif;
+    font-size: .875rem;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--bg-main);
+}
+
+.card{
+    width: 368px;
+    padding: 16px 16px 20px;
+    border-radius: 10px;
+    background-color: var(--bg-card);
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    position: relative;
+}
+
+.img-card{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.tag{
+    display: inline-block;
+    font-size: .625rem;
+    font-weight: 700;
+    margin: 16px 0;
+    padding: 6px 16px;
+    border-radius: 30px;
+    color: var(--tag-color);
+    background-color: var(--bg-tag);
+}
+
+.title{
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: var(--title-color);
+}
+
+.paragraph, .author{
+    color: var(--paragraph-color);
+}
+
+.paragraph{
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+hr{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    border: none;
+    border-bottom: 1px solid var(--line-color);
+}
+
+.author{
+    display: inline-block;
+    font-size: .75rem; 
+    margin-top: 20px; 
+}
+
+footer{
+    text-align: center;
+    padding: 8px 0;
+    background-color: #000000;
+}
+
+.paragraph-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    font-size: .75rem;
+    font-weight: 400;
+    color: var(--paragraph-color);
+}
+
+.external-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--tag-color);
+    transition: color .4s ease-in-out;
+}
+
+.external-link:hover{
+    color: var(--bg-card);
+}
+
+.img-devchallenges-logo{
+    width: 15px;
+}
