@@ -1,0 +1,56 @@
+@media(max-width: 820px){
+    .container{
+        max-width: 590px;
+        grid-template-areas: "about-reviewers"
+                             "google-review"
+                             "meta-review";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 188px 188px;
+    }
+
+    .about-reviewers{
+        padding-right: 50px;
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 640px){
+    main{
+        min-height: 223vh;
+    }
+}
+
+@media(max-width: 450px){
+    main{
+        min-height: 120vh;
+    }
+
+    .container{
+        width: 95%;
+    }
+
+    .about-reviewers{
+        padding-right: 0;
+    }
+}
+
+@media(max-width: 380px){
+    main{
+        min-height: 170vh;
+    }
+
+    .google-review, .meta-review{
+        width: 100%;
+        padding: 30px 28px;
+    }
+
+    .google-review{
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 360px){
+    main{
+        min-height: 150vh;
+    }
+}

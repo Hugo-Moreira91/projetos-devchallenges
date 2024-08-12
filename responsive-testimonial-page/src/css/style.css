@@ -1,7 +1,6 @@
 body{
     font-family: "Sora", sans-serif;
-    /* background-color: var(--bg-body); */
-    background-color: green;
+    background-color: var(--bg-body);
 }
 
 main{
@@ -56,15 +55,101 @@ main{
     line-height: 34px;
 }
 
+.about-reviewers ul{
+    margin-top: 35px;
+}
 
+.advantages-list{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.875rem;
+    letter-spacing: -0.1px;
+    margin-bottom: 13px;
+}
 
+.advantages-list:last-child{
+    margin-bottom: 0;
+}
 
-
+.google-review, .meta-review{
+    width: 357px;
+    height: 188px;
+    padding: 30px 38px;
+    border-radius: 10px;
+    background-color: var(--bg-review);
+    box-shadow: 0 0 30px 30px rgb(212, 212, 216, .15);
+}
 
 .google-review{
     grid-area: google-review;
+    margin-left: auto;
 }
 
 .meta-review{
     grid-area: meta-review;
+}
+
+.logo-rating-container{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo-rating-container .logo{
+    width: 87px;
+}
+
+.rating-stars{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.rating-stars .star{
+    content: url(../images/Star_fill.svg);
+}
+
+.rating-stars .star.empty{
+    content: url(../images/Star_fill_gray.svg);
+}
+
+.author{
+    font-size: 1rem;
+    margin: 17px 0 10px;
+    color: var(--title-color);
+}
+
+.opinion{
+    line-height: 26px;
+    color: var(--text-color);
+}
+
+footer{
+    padding: 5px 0;
+    background-color: var(--text-color);
+}
+
+.paragraph-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: .75rem;
+}
+
+.external-link{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: var(--bg-body);
+    transition: color .3s ease-in-out;
+}
+
+.external-link:hover{
+    color: var(--bg-star);
+}
+
+.devchallenges-logo{
+    width: 20px;
 }
