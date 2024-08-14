@@ -13,7 +13,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0 71px;
+    margin-bottom: 70px;
 }
 
 .main-container {
@@ -26,7 +26,7 @@ main {
 
 .text-heading {
     width: 630px;
-    margin-bottom: 71px;
+    margin-bottom: 45px;
 }
 
 .title-heading {
