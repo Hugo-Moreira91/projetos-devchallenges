@@ -1,0 +1,163 @@
+body {
+    background: url(../images/bg-image.svg) top left/cover no-repeat;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    min-height: 74px;
+    padding: 0 71px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 71px;
+}
+
+.main-container {
+    min-height: calc(100vh - 74px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-heading {
+    width: 630px;
+    margin-bottom: 71px;
+}
+
+.title-heading {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+    text-align: center;
+    margin-bottom: 14px;
+    color: var(--text-color);
+}
+
+.paragraph-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: 48px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.form-company {
+    width: 810px;
+    padding: 32px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, .15);
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.input-name,
+.input-company-email,
+.select-company-size,
+.select-subject,
+.flex-textarea {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 23px;
+    width: 100%;
+}
+
+label {
+    font-size: .875rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+input,
+select,
+textarea{
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 15px;
+    padding: 24px 20px;
+    outline: none;
+    background-color: var(--bg-input);
+}
+
+input::placeholder {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--placeholder-color);
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: var(--bg-input) url(../images/Expand_down.svg) no-repeat right 21px center;
+    background-size: 26px;
+    cursor: pointer;    
+}
+
+textarea{
+    resize: none;
+}
+
+.btn-submit{
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    padding: 24px 0;
+    color: var(--text-button-color);
+    background-color: var(--text-color);
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.btn-submit:hover{
+    color: var(--text-color);
+    background-color: var(--text-button-color);
+}
+
+footer {
+    padding: 5px 0;
+    border-top: 2px solid var(--text-color);
+    background-color: var(--text-input-color);
+}
+
+.paragraph-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: .75rem;
+    font-weight: 500;
+    color: var(--placeholder-color);
+}
+
+.external-link {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: var(--text-button-color);
+    transition: color .4s ease-in-out;
+}
+
+.devchallenges-logo {
+    width: 15px;
+}
+
+.external-link:hover {
+    color: var(--placeholder-color);
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <title>Contact Page - DevChallenges</title>
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="./src/images/contact-form-icon.svg" alt="">
+        </a>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="text-heading">
+                <h1 class="title-heading">Interested in our business pricing?</h1>
+                <p class="paragraph-heading">Fill out the form to view details and we’ll contact you as soon as possible.</p>
+            </div>
+
+            <form class="form-company" id="form-company" action="#" method="get">
+                <div class="flex-row">
+                    <div class="input-name">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Ethan Johnson">
+                    </div>
+                    <div class="input-company-email">
+                        <label for="company-email">Company Email</label>
+                        <input type="email" name="company-email" id="company-email" placeholder="ethan@johnson.com">
+                    </div>
+                </div>
+
+                <div class="flex-row">
+                    <div class="select-company-size">
+                        <label for="company-size">Company Size</label>
+                        <select name="company-size" id="company-size">
+                            <option value="1">Up to 50 employees</option>
+                            <option value="2" selected>50-100 employees</option>
+                            <option value="3">101-250 employees</option>
+                            <option value="4">251-500 employees</option>
+                            <option value="5">501 or more employees</option>
+                        </select>
+                    </div>
+                    <div class="select-subject">
+                        <label for="subject">Subject</label>
+                        <select name="subject" id="subject">
+                            <option value="1">Responsive Design</option>
+                            <option value="2">Web Accessibility</option>
+                            <option value="3">API Integration</option>
+                            <option value="4" selected>Building Landing pages</option>
+                            <option value="5">Database Management</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="flex-textarea">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="8"></textarea>
+                </div>
+
+                <button class="btn-submit" id="btn-submit" type="submit">Contact Sales</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p class="paragraph-footer">
+            Challenge of <a class="external-link" href="https://devchallenges.io/" target="_blank"><img class="devchallenges-logo" src="./src/images/devchallenges-logo.svg" alt="DevChallenges logo"> DevChallenges.</a> Made by <a class="external-link" href="https://github.com/Hugo-Moreira91" target="_blank">Hugo Moreira.</a>
+        </p>
+    </footer>
+</body>
+</html>
